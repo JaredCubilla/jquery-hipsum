@@ -10,7 +10,7 @@
 
 		options = $.extend({}, defaults, options);
 
-		var url = "http://hipsterjesus.com/api/?paras=" + options.paragraphs + "&type=" + options.type + "&html=" + options.html;
+		var url = "http://hipsterjesus.com/api/?paras=" + options.paragraphs + "&type=" + options.type.toLowerCase() + "&html=" + options.html;
 
 		$.getJSON(url, function(data){
 			self.html(data.text);
