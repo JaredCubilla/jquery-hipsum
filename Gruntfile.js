@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 				" *  <%= pkg.homepage %>\n" +
 				" *\n" +
 				" *  Made by <%= pkg.author.name %>\n" +
-				" *  Under <%= pkg.licenses[0].type %> License\n" +
+				" *  Licensed under <%= pkg.licenses[0].type %> \n" +
 				" */\n"
 		},
 
@@ -41,5 +41,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 	grunt.loadNpmTasks("grunt-contrib-watch");
 
-	grunt.registerTask("default", ["jshint", "uglify"]);
+	grunt.registerTask("default", ["watch"]);
 };
