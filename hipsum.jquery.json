@@ -16,6 +16,7 @@
 		}
 	],
 
+	"homepage": "https://github.com/JaredCubilla/jquery-hipsum",
 	"bugs": "https://github.com/JaredCubilla/jquery-hipsum/issues",
 	"dependencies": {
 		"jquery": ">=1.1"
