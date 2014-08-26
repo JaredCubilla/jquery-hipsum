@@ -4,12 +4,8 @@ module.exports = function(grunt) {
 
 		meta: {
 			banner: "/*\n" +
-				" *  <%= pkg.title || pkg.name %> - v<%= pkg.version %>\n" +
-				" *  <%= pkg.description %>\n" +
-				" *  <%= pkg.homepage %>\n" +
-				" *\n" +
-				" *  Made by <%= pkg.author.name %>\n" +
-				" *  Licensed under <%= pkg.licenses[0].type %> \n" +
+				" *  <%= pkg.title %> - <%= pkg.description %>\n" +
+				" *  Made by <%= pkg.author.name %>, licensed under <%= pkg.licenses[0].type %> \n" +
 				" */\n"
 		},
 
@@ -41,5 +37,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 	grunt.loadNpmTasks("grunt-contrib-watch");
 
-	grunt.registerTask("default", ["watch"]);
+	grunt.registerTask("default", ["jshint", "uglify", "watch"]);
 };
