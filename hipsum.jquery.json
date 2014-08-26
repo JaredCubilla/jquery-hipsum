@@ -1,0 +1,24 @@
+{
+	"name": "jquery-hipsum",
+	"title": "jQuery Hipsum",
+	"description": "An artisanal jQuery plugin for hipster-y filler text. YOLO",
+
+	"version": "0.1.0",
+	"author": {
+		"name": "Jared Cubilla",
+		"url": "https://github.com/JaredCubilla"
+	},
+
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+
+	"bugs": "https://github.com/JaredCubilla/jquery-hipsum/issues",
+	"dependencies": {
+		"jquery": ">=1.1"
+	}
+
+}
