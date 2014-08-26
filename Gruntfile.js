@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 
 		meta: {
 			banner: "/*\n" +
-				" *  <%= pkg.title %> - <%= pkg.description %>\n" +
+				" *  <%= pkg.title %>\n" +
 				" *  Made by <%= pkg.author.name %>, licensed under <%= pkg.licenses[0].type %> \n" +
 				" */\n"
 		},
