@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
-		pkg: grunt.file.readJSON("boilerplate.jquery.json"),
+		pkg: grunt.file.readJSON("hipsum.jquery.json"),
 
 		meta: {
 			banner: "/*\n" +
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 		},
 
 		jshint: {
-			files: ["src/Hipsum.boilerplate.js"],
+			files: ["hipsum.js"],
 			options: {
 				jshintrc: ".jshintrc"
 			}
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 		},
 		
 		watch: {
-		    files: ['src/*'],
+		    files: ['hipsum.js'],
 		    tasks: ['default']
 		}
 
