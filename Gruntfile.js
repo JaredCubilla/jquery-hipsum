@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 		
 		watch: {
 		    files: ['hipsum.js'],
-		    tasks: ['default']
+		    tasks: ['jshint', 'uglify']
 		}
 
 	});
