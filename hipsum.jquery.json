@@ -1,9 +1,9 @@
 {
-	"name": "jquery-hipsum",
+	"name": "hipsum",
 	"title": "jQuery Hipsum",
 	"description": "An artisanal jQuery plugin for hipster-y filler text. YOLO",
 
-	"version": "0.1.0",
+	"version": "1.0.1",
 	"author": {
 		"name": "Jared Cubilla",
 		"url": "https://github.com/JaredCubilla"
