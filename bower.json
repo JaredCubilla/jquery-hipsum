@@ -1,0 +1,19 @@
+{
+	"name": "jquery-hipsum",
+	"version": "1.0.2",
+	"description": "An artisanal jQuery plugin for Hipster Ipsum. YOLO",
+	"keywords": ["jquery", "jquery-plugin", "lorem", "ipsum", "lorem-ipsum", "hipster", "hipster-ipsum", "yolo"],
+
+	"main": "hipsum.min.js",
+	"ignore": [
+		".jshintrc",
+		"Gruntfile.js"
+	],
+
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/JaredCubilla/jquery-hipsum.git"
+	},
+
+	"license": "MIT"
+}
